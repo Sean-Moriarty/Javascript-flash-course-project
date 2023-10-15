@@ -14,9 +14,8 @@ document.querySelector("#close-nav-menu").addEventListener("click", function() {
 
 // Greeting Section
 
-function celsiusToFahr(temperature) {
-    let fahr = (temperature * 9 / 5) + 32;
-    return fahr;
+function celsiusToFahr(temperature){
+    return (temperature * 9 / 5) + 32
 }
 
 const greetingText = "Good Evening!";
