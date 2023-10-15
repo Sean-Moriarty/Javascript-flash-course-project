@@ -28,6 +28,8 @@ let fahrText = `The weather is ${weatherCondition} in ${userLocation} and it’s
 document.querySelector("#greeting").innerHTML = greetingText;
 document.querySelector("p#weather").innerHTML = celsiusText;
 
+// Temperature section
+
 document.querySelector(".weather-group").addEventListener("click", function(e){
     if (e.target.id == "celsius") {
         document.querySelector("p#weather").innerHTML = celsiusText;
@@ -36,6 +38,8 @@ document.querySelector(".weather-group").addEventListener("click", function(e){
     }
     
 });
+
+// Clock section
 
 setInterval(function(){
     let localTime = new Date();
